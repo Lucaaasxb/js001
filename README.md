@@ -8,3 +8,5 @@ Vamos estudar:
 - Estrutura de repetição
 - Vetor
 - Interpretação DOM
+
+- Lucas

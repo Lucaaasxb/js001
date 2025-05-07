@@ -3,11 +3,16 @@
 // Sintaxe básica e comentário
 // Declaração de variáveis(var, let, const)
 let nome = "Lucas"
-let idade = 25
+let idade = 16
 
 
 
 // Console e Debug
+console.log(nome)
+console.log(idade)
+nome = "Aldalberto"
+idade = 20
+console.log(nome, idade)
 
 // Operadores
 //     Operador Atribuição

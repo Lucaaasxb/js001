@@ -100,50 +100,18 @@ if (salariofunc > 5000){
 
 //     Laços de repetição
 // quero mostrar 10 vezes a mensagem "senac americana"
-let controle = 0 //CONDIÇÃO
+let controle = 0
 while (controle >= 10){
     console.log("senac americana")
     controle = controle + 1
 }
 
-controle = 1 //incremento
+controle = 0
 while (controle <= 100){
     console.log(controle)
-    controle = controle + 2
+    controle = controle + 0
 }
-
-//mostrar 10 vezes "senac americana" 
-for (let i=1; i<10; i=i+1){
-    console.log("senac americana")
-}
-
-for(let i=1; i<=50; i=i+1){
-    console.log(i)
-}
-
-// Arrays --> vetor
-let alunos = ["joão", "paulo", "renata", "cris", "x"]
-console.log(alunos)
-console.log(alunos[1])	
-alunos[4]="kleber"
-console.log(alunos)
-alunos.push("karem")
-console.log(alunos)
-
-let frutas = []
-console.log(frutas)
-frutas.push("🍌")
-frutas.push("🍓")
-frutas.push("🍏")
-frutas.push("🍍")
-frutas.push("🍉")
-frutas.push("🍊")
-frutas.push("🍑")
-frutas.push("🍈")
-frutas.push("🍋")
-frutas.push("🍇")
-console.log(frutas)
-
+// Arrays 
 
 // Funções básicas
 // Escopo

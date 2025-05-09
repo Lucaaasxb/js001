@@ -56,6 +56,19 @@ console.log(10>2 && 35<100 && n1>n2) // && - todas as verificações precisam se
 console.log(10>2 || 100==150 || 57==57) // || - apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro
 console.log(espaco)
 
+// desafio
+let preco = 100
+let precoAcrescimo = 117
+let precoDesconto = 93
+// faça um codigo que acrescente 17% ao preco e inprima
+// faça um codigo que desconte 7% do preco e imprima 
+console.log(preco + (preco*0.17)) // acrescimo
+console.log(preco - (preco*0.07)) // desconto   
+console.log("Preço original: " + preco)
+console.log("Preço com acrescimo: " + 117)
+console.log("Preço com desconto: " + 93)
+console.log("Preço com acrescimo: " + precoAcrescimo.toFixed(2))
+console.log("Preço com desconte: " + precoDesconto.toFixed(2))
 
 // Estrutura
 //     Estrutura de controle/decisão

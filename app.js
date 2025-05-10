@@ -42,18 +42,18 @@ console.log(n1 / n2)  //divisão
 console.log(n1 % n2)  //resto da divisão
 console.log(espaco)
 //     Operadores relacionais(>, <, >=, <=, ==, !=)
-console.log(n1==n2) //igualdade
-console.log(n1!=n2) //diferente
-console.log(n1>n2) //maior
-console.log(n1<n2) //menor
-console.log(n1>=n2) //maior ou igual
-console.log(n1<=n2) //menor ou igual
-console.log(espaco) 
+console.log(n1 == n2) //igualdade
+console.log(n1 != n2) //diferente
+console.log(n1 > n2) //maior
+console.log(n1 < n2) //menor
+console.log(n1 >= n2) //maior ou igual
+console.log(n1 <= n2) //menor ou igual
+console.log(espaco)
 //     Operadores lógicos(!, &&, ||)
-console.log(!10>2) // ! - inverte o resultado, ser for verdadeiro vira falso, se for falso vira verdadeiro
+console.log(!10 > 2) // ! - inverte o resultado, ser for verdadeiro vira falso, se for falso vira verdadeiro
 console.log(!false)
-console.log(10>2 && 35<100 && n1>n2) // && - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro
-console.log(10>2 || 100==150 || 57==57) // || - apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro
+console.log(10 > 2 && 35 < 100 && n1 > n2) // && - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro
+console.log(10 > 2 || 100 == 150 || 57 == 57) // || - apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro
 console.log(espaco)
 
 // desafio
@@ -62,8 +62,8 @@ let precoAcrescimo = 117
 let precoDesconto = 93
 // faça um codigo que acrescente 17% ao preco e inprima
 // faça um codigo que desconte 7% do preco e imprima 
-console.log(preco + (preco*0.17)) // acrescimo
-console.log(preco - (preco*0.07)) // desconto   
+console.log(preco + (preco * 0.17)) // acrescimo
+console.log(preco - (preco * 0.07)) // desconto   
 console.log("Preço original: " + preco)
 console.log("Preço com acrescimo: " + 117)
 console.log("Preço com desconto: " + 93)
@@ -73,59 +73,59 @@ console.log(espaco)
 
 // Estrutura
 //     Estrutura de controle/decisão
-if (10>100){
+if (10 > 100) {
     console.log("10 é maior que 100")
 }
-else{
+else {
     console.log("10 não é maior que 100")
 }
 
 let idadeDoCandidato = 20
-if (idadeDoCandidato >= 18){
+if (idadeDoCandidato >= 18) {
     console.log("pode dirigir")
-}else{
+} else {
     console.log("volte mais tarde")
 }
 
-let salariofunc =3000
+let salariofunc = 3000
 let aumento = 5000 - salariofunc
 //desafio
 // faça um codigo e verifique se o salário do funcionario é maior que 5000, se for mostre a mensagem "salario ok" se nao mostre a mensagem "precisa de um aumento de x reais"
-if (salariofunc > 5000){
+if (salariofunc > 5000) {
     console.log("salario ok")
-}else{
+} else {
     console.log("precisa de um aumento de", aumento.toFixed(2))
-} 
+}
 
 
 //     Laços de repetição
 // quero mostrar 10 vezes a mensagem "senac americana"
 let controle = 0 //CONDIÇÃO
-while (controle >= 10){
+while (controle >= 10) {
     console.log("senac americana")
     controle = controle + 1
 }
 
 controle = 1 //incremento
-while (controle <= 100){
+while (controle <= 100) {
     console.log(controle)
     controle = controle + 2
 }
 
 //mostrar 10 vezes "senac americana" 
-for (let i=1; i<10; i=i+1){
+for (let i = 1; i < 10; i = i + 1) {
     console.log("senac americana")
 }
 
-for(let i=1; i<=50; i=i+1){
+for (let i = 1; i <= 50; i = i + 1) {
     console.log(i)
 }
 
 // Arrays --> vetor
 let alunos = ["joão", "paulo", "renata", "cris", "x"]
 console.log(alunos)
-console.log(alunos[1])	
-alunos[4]="kleber"
+console.log(alunos[1])
+alunos[4] = "kleber"
 console.log(alunos)
 alunos.push("karem")
 console.log(alunos)
@@ -146,6 +146,14 @@ console.log(frutas)
 
 
 // Funções básicas
+function soma(num1, num2) {
+    let total = num1 + num2
+    console.log("o ressutado é" + total)
+}
+
+soma(100, 14)
+soma(7,3)
+
 // Escopo
 
 
@@ -164,4 +172,3 @@ console.log(frutas)
 
 
 // Spread e REST  ************
- 
